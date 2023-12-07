@@ -33,3 +33,35 @@ if (month == 1) {
 } else {
   console.log("Invalid Month");
 }
+
+// truthy and falsy value
+
+/*
+
+false value 
+0
+undefined
+null
+""
+false
+Bigint 0n
+NaN
+*/
+
+// truthy  value
+"0", false, " ", [], {}, function () {};
+
+// check empty arr
+
+const arr = [];
+if (arr.length === 0) {
+  console.log("arr is empty");
+}
+
+// check empty object
+
+const obj = {};
+
+if (Object.keys(obj).length === 0) {
+  console.log("object is empty");
+}
